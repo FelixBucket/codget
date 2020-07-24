@@ -7,6 +7,7 @@ enum {
   ID_PROGRAM      = 1000,
   ID_REGION       = 1001,
   ID_LINK         = 1002,
+  ID_LINK_2         = 1003,
 };
 
 ProgramPage::ProgramPage(Wizard* wizard)
@@ -29,7 +30,7 @@ ProgramPage::ProgramPage(Wizard* wizard)
 
   StaticFrame* tip3 = new StaticFrame("Original code for BlizzGet can be found here:", this);
   tip3->setPoint(PT_BOTTOMRIGHT, tip4, PT_TOPRIGHT, 0, 0);
-  LinkFrame* link2 = new LinkFrame("https://github.com/d07RiV/blizzget", this, ID_LINK);
+  LinkFrame* link2 = new LinkFrame("https://github.com/d07RiV/blizzget", this, ID_LINK_2);
   link2->setPoint(PT_TOPRIGHT, tip3, PT_BOTTOMRIGHT, 0, 0);
 
   program_ = new ComboFrame(this, ID_PROGRAM);
@@ -91,6 +92,8 @@ LRESULT ProgramPage::onMessage(uint32 message, WPARAM wParam, LPARAM lParam) {
       }
     } else if (LOWORD(wParam) == ID_LINK && HIWORD(wParam) == BN_CLICKED) {
       ShellExecute(NULL, "open", "https://github.com/FelixBucket/codget", NULL, NULL, SW_SHOWNORMAL);
+    } else if (LOWORD(wParam) == ID_LINK_2 && HIWORD(wParam) == BN_CLICKED) {
+      ShellExecute(NULL, "open", "https://github.com/d07RiV/blizzget", NULL, NULL, SW_SHOWNORMAL);
     }
     return 0;
   case WM_TASKDONE:
