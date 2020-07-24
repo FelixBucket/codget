@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5C7B85D1-E985-4331-862E-B4864324DCB5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>BlizzGet</RootNamespace>
+    <RootNamespace>CodGet</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <ProjectName>CodGet</ProjectName>
   </PropertyGroup>
@@ -217,7 +217,7 @@
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="BlizzGet.rc" />
+    <ResourceCompile Include="CodGet.rc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Battle_130.ico" />

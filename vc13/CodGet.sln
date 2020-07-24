@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1145
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlizzGet", "BlizzGet.vcxproj", "{5C7B85D1-E985-4331-862E-B4864324DCB5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CodGet", "CodGet.vcxproj", "{5C7B85D1-E985-4331-862E-B4864324DCB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
