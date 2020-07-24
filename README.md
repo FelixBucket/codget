@@ -1,3 +1,6 @@
+## HEY COUNTRY, DO YOU ARE HAVE STUPID??
+## Was it really that hard to find this?
+
 # codget
 
 [Download](https://github.com/felixbucket/codget/releases)
