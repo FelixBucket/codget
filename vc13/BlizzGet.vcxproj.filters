@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{49b335fb-4d74-4e3a-bd5a-30213f6bc659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Header Files">
+      <UniqueIdentifier>{77292007-2477-4c3b-8cf3-188ebcd657fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\Source Files">
+      <UniqueIdentifier>{21d34fab-6962-4f59-9819-d2078d91e4a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameUI">
+      <UniqueIdentifier>{a3f7604a-19e5-4519-98cd-d883b7400bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameUI\Header Files">
+      <UniqueIdentifier>{7fbda502-e098-492a-a874-85590a929e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameUI\Source Files">
+      <UniqueIdentifier>{ca7a40cf-b104-4d1b-bee4-a3b11be5f813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pages">
+      <UniqueIdentifier>{5bf51ea9-d4c9-43e0-aed6-ef53f22e288d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pages\Header Files">
+      <UniqueIdentifier>{7f32c3d0-bdb8-48e1-b2ff-a6f827929e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pages\Source Files">
+      <UniqueIdentifier>{4f824606-2631-4807-a689-de2b0ebe5350}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\base\checksum.cpp">
+      <Filter>Base\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\common.cpp">
+      <Filter>Base\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\error.cpp">
+      <Filter>Base\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\file.cpp">
+      <Filter>Base\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\http.cpp">
+      <Filter>Base\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\json.cpp">
+      <Filter>Base\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\path.cpp">
+      <Filter>Base\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\pool.cpp">
+      <Filter>Base\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\regexp.cpp">
+      <Filter>Base\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\string.cpp">
+      <Filter>Base\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\thread.cpp">
+      <Filter>Base\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\base\utf8.cpp">
+      <Filter>Base\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frameui\controlframes.cpp">
+      <Filter>FrameUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frameui\fontsys.cpp">
+      <Filter>FrameUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frameui\frame.cpp">
+      <Filter>FrameUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frameui\framewnd.cpp">
+      <Filter>FrameUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frameui\window.cpp">
+      <Filter>FrameUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ngdp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\wizard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pages\program.cpp">
+      <Filter>Pages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pages\build.cpp">
+      <Filter>Pages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\frameui\listctrl.cpp">
+      <Filter>FrameUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pages\tags.cpp">
+      <Filter>Pages\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\pages\download.cpp">
+      <Filter>Pages\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\base\checksum.h">
+      <Filter>Base\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\common.h">
+      <Filter>Base\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\error.h">
+      <Filter>Base\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\file.h">
+      <Filter>Base\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\functor.h">
+      <Filter>Base\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\http.h">
+      <Filter>Base\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\json.h">
+      <Filter>Base\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\path.h">
+      <Filter>Base\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\pool.h">
+      <Filter>Base\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\regexp.h">
+      <Filter>Base\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\string.h">
+      <Filter>Base\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\thread.h">
+      <Filter>Base\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\types.h">
+      <Filter>Base\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\base\utf8.h">
+      <Filter>Base\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frameui\controlframes.h">
+      <Filter>FrameUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frameui\fontsys.h">
+      <Filter>FrameUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frameui\frame.h">
+      <Filter>FrameUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frameui\framewnd.h">
+      <Filter>FrameUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frameui\window.h">
+      <Filter>FrameUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\app.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ngdp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\wizard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pages\program.h">
+      <Filter>Pages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pages\build.h">
+      <Filter>Pages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pages\tags.h">
+      <Filter>Pages\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\frameui\listctrl.h">
+      <Filter>FrameUI\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\pages\download.h">
+      <Filter>Pages\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BlizzGet.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Battle_130.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
