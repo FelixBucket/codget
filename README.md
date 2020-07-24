@@ -1,4 +1,4 @@
-# blizzget
+# codget
 
 [Download](https://github.com/d07RiV/blizzget/releases)
 
