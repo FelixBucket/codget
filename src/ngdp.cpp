@@ -18,8 +18,8 @@ namespace NGDP {
     { "odina", "Call of Duty: Modern Warfare Alpha" },
     { "odinb", "Call of Duty: Modern Warfare Beta" },
     { "odin", "Call of Duty: Modern Warfare" },
-    { "zeus", "Call of Duty: Black Ops" },
-	{ "zeusdev", "Call of Duty: Black Ops Dev" },
+    { "zeus", "Call of Duty: Black Ops Cold War" },
+	{ "zeusdev", "Call of Duty: Black Ops Cold War Dev" },
     { "viper", "Call of Duty: Black Ops 4" },
     { "viperdev", "Call of Duty: Black Ops 4 Dev" },
   };
