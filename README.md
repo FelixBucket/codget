@@ -2,7 +2,7 @@
 
 [Download](https://github.com/felixbucket/codget/releases)
 
-Blizzard Call of Duty CDN downloader. Capable of downloading upcoming versions of games. **They will most likely not be playable, but can be used for datamining and such** - if you're going to try to play the game, make sure you run it through battle.net app so it can fix the possible inconsistencies. Note that it always stores the CASC archive in the /Data folder, which is not correct for every game - you might want to rename the folder to what the actual game uses. Currently I only tested it for Diablo III.
+Blizzard Call of Duty CDN downloader. Capable of downloading upcoming versions of games. **They will most likely not be playable, but can be used for datamining and such** - if you're going to try to play the game, make sure you run it through battle.net app so it can fix the possible inconsistencies. Note that it always stores the CASC archive in the /Data folder, which is not correct for every game - you might want to rename the folder to what the actual game uses.
 
 The program represents a simple 4-step wizard.
 
