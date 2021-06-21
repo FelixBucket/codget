@@ -19,9 +19,19 @@ namespace NGDP {
     { "odinb", "Call of Duty: Modern Warfare Beta" },
     { "odin", "Call of Duty: Modern Warfare" },
     { "zeus", "Call of Duty: Black Ops Cold War" },
+    { "zeusb", "Call of Duty: Black Ops Cold War Beta" },
+    { "zeusc", "Call of Duty: Black Ops Cold War Tournament" },
 	{ "zeusdev", "Call of Duty: Black Ops Cold War Dev" },
+	{ "zeus_alpha", "Call of Duty: Black Ops Cold War Internal Alpha" },
     { "viper", "Call of Duty: Black Ops 4" },
     { "viperdev", "Call of Duty: Black Ops 4 Dev" },
+    { "prolocv2", "Overwatch 2" },
+    { "prodemo", "Overwatch Demo" },
+    { "proc3", "Overwatch Tournament 3" },
+    { "proutr", "Overwatch User Test Realm" },
+    { "fenris", "Diablo IV" },
+    { "fenrisdev", "Diablo IV Dev" },
+    { "fenrisb", "Diablo IV Beta" },
   };
 
   NGDP::NGDP(std::string const& app)

@@ -1,0 +1,15 @@
+﻿  ngdp.cpp
+  Generating code
+  31 of 3857 functions ( 0.8%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+zlib64r.lib(adler32.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'zlib64r.lib(adler32.obj)' or at 'C:\Users\Connor\Documents\GitHub\codget\vc13\x64\Release\vc120.pdb'; linking object as if no debug info
+zlib64r.lib(crc32.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'zlib64r.lib(crc32.obj)' or at 'C:\Users\Connor\Documents\GitHub\codget\vc13\x64\Release\vc120.pdb'; linking object as if no debug info
+zlib64r.lib(deflate.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'zlib64r.lib(deflate.obj)' or at 'C:\Users\Connor\Documents\GitHub\codget\vc13\x64\Release\vc120.pdb'; linking object as if no debug info
+zlib64r.lib(inffast.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'zlib64r.lib(inffast.obj)' or at 'C:\Users\Connor\Documents\GitHub\codget\vc13\x64\Release\vc120.pdb'; linking object as if no debug info
+zlib64r.lib(inflate.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'zlib64r.lib(inflate.obj)' or at 'C:\Users\Connor\Documents\GitHub\codget\vc13\x64\Release\vc120.pdb'; linking object as if no debug info
+zlib64r.lib(inftrees.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'zlib64r.lib(inftrees.obj)' or at 'C:\Users\Connor\Documents\GitHub\codget\vc13\x64\Release\vc120.pdb'; linking object as if no debug info
+zlib64r.lib(trees.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'zlib64r.lib(trees.obj)' or at 'C:\Users\Connor\Documents\GitHub\codget\vc13\x64\Release\vc120.pdb'; linking object as if no debug info
+zlib64r.lib(zutil.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'zlib64r.lib(zutil.obj)' or at 'C:\Users\Connor\Documents\GitHub\codget\vc13\x64\Release\vc120.pdb'; linking object as if no debug info
+  CodGet.vcxproj -> C:\Users\Connor\Documents\GitHub\codget\vc13\x64\Release\CodGet.exe
