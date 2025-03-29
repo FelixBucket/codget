@@ -10,6 +10,7 @@ namespace NGDP {
 
   const std::map<std::string, std::string> ProgramCodes = {
     { "agent", "Battle.net Agent" },
+    { "auks", "Call of Duty HQ" },
     { "bna", "Battle.net App" },
     { "lazarus", "Call of Duty: MW2 Campaign Remastered" },
     { "lazarus_dev", "Call of Duty: MW2 Campaign Remastered Dev" },
@@ -27,6 +28,7 @@ namespace NGDP {
     { "viperdev", "Call of Duty: Black Ops 4 Dev" },
     { "prolocv2", "Overwatch 2" },
     { "prodemo", "Overwatch Demo" },
+    { "prodemo4", "Overwatch Demo 4" },
     { "proc3", "Overwatch Tournament 3" },
     { "proutr", "Overwatch User Test Realm" },
     { "fenris", "Diablo IV" },
